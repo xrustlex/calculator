@@ -13,4 +13,10 @@ public abstract class Calc {
 		return a - b;
 		
 	}
+
+	public static double prod(double a, double b) {
+		
+		return a * b;
+		
+	}
 }
