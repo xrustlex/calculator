@@ -46,3 +46,4 @@ public class CalcTests {
 		assertTrue("div(a, b) is not equal to a / b ", q == Calc.div(a, b));
 	}
 }
+
