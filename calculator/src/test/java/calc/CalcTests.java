@@ -32,15 +32,17 @@ public class CalcTests {
 		double a = 2;
 		double b = 3;
 		double p = a * b;
-		
+
 		assertTrue("prod(a, b) is not equal to a * b ", p == Calc.prod(a, b));
 	}
+
+	@Test
+	public void canDivide() throws Exception {
+
+		double a = 2;
+		double b = 3;
+		double q = a / b;
+		
+		assertTrue("div(a, b) is not equal to a / b ", q == Calc.div(a, b));
+	}
 }
-
-
-
-
-
-
-
-

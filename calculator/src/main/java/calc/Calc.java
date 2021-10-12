@@ -19,4 +19,10 @@ public abstract class Calc {
 		return a * b;
 		
 	}
+
+	public static double div(double a, double b) throws Exception {
+
+		if (b == 0) throw new RuntimeException();
+		return a / b;
+	}
 }
