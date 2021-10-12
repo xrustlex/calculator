@@ -23,7 +23,7 @@ public class CalcTests {
 		double b = 3;
 		double r = a - b;
 		
-		assertTrue(r == Calc.sub(a, b));
+		assertTrue("sub(a, b) is not equal a - b ", r == Calc.sub(a, b));
 	}
 	
 }
